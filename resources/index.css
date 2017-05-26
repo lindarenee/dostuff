@@ -474,6 +474,7 @@ td .ui-state-default:hover{
 @media screen and (min-width: 1093px){
   .inner-filter.scroll {
     margin-left: -221px;
+  }
 }
 @media screen and (max-width: 1093px){
 
