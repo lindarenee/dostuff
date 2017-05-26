@@ -154,6 +154,8 @@ vertical-align: middle;
     display: inline-block;
 }
 .heading-section {
+max-width: 1100px;
+    margin: 0 auto;
   position: relative;
     background-color: #056571;
    
@@ -468,6 +470,19 @@ td .ui-state-default:hover{
 }
 .inner-filter.scroll{
   margin-left: -97px;
+}
+@media screen and (min-width: 1093px){
+  .inner-filter.scroll {
+    margin-left: -221px;
+}
+@media screen and (max-width: 1093px){
+
+  .heading-section-ctr {
+
+  }
+}
+.heading-section-ctr{
+      background-color: #056571;
 }
 .ui-widget.ui-widget-content{
   z-index: 1;
